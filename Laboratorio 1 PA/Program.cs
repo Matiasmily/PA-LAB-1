@@ -52,13 +52,14 @@ do
                     Console.WriteLine("\nPresione enter para continuar...");
                     Console.ReadKey();
                 }
-            } while (numberTwo ==0);
+            } while (numberTwo == 0);
             break;
         case 3:
             Console.Clear ();
             Console.WriteLine("Usted está cerrando el programa");
             Console.WriteLine("Presione enter para cerrar...");
             Console.ReadKey (); 
+            menuOptionThree= false;
             break;
         default:
             Console.WriteLine("\nIngrese una opción válida.");
